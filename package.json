@@ -4,7 +4,8 @@
   "description": "MangaFuri is an OCR-based manga reader that overlays furigana on kanji and lets you right-click to save tricky kanji for later review.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
     "http-server": "^14.1.1",
     "kuroshiro": "^1.2.0",
     "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "path-browserify": "^1.0.1",
+    "prettier": "^3.3.3",
     "tesseract.js": "^5.1.1",
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",

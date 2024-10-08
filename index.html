@@ -1,30 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Furigami Manga Translator</title>
     <style>
-        body { font-family: Arial, sans-sarif; padding: 20px; }
-        #imageCanvas { border: 1px solid #ccc; cursor: crosshair }
-        .tooltip {
-            position: absolute;
-            background-color: #eee;
-            border: 1px solid #ccc;
-            padding: 5px;
-            z-index: 1000,
-        }
-        #reviewList {
-            list-style-type: none;
-            padding: 0;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      #imageCanvas {
+        border: 1px solid #ccc;
+        cursor: crosshair;
+      }
+      .tooltip {
+        position: absolute;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        padding: 5px;
+        z-index: 1000;
+      }
+      #reviewList {
+        list-style-type: none;
+        padding: 0;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Furigami Manga Translator</h1>
     <input type="file" id="imageUploader" accept="image/*" />
     <canvas id="imageCanvas"></canvas>
     <h2>Review List</h2>
     <ul id="reviewList"></ul>
-    <script src="./dist/bundle.js"></script>
-</body>
+    <script src="dist/bundle.js"></script>
+  </body>
 </html>
