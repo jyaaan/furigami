@@ -34,7 +34,7 @@ const updateReviewList = () => {
 
 const ctx = imageCanvas.getContext('2d');
 if (!ctx) {
-  console.error('Canvas context is null');
+  alert('Canvas context is null');
 }
 let reviewItems: Set<string> = new Set();
 let kanjiData: { kanji: string; bbox: BBox }[] = [];
