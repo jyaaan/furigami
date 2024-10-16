@@ -48,8 +48,11 @@ const showToolTip = (x: number, y: number, furigana: string, kanji: string) => {
 
   document.body.appendChild(tooltip);
 
+  // TODO: Explore offset.
   tooltip.style.left = `${x + TOOLTIP_X_OFFSET}px`;
   tooltip.style.top = `${y + TOOLTIP_Y_OFFSET}px`;
+
+  // TODO: Add debug mode to view all current bounding boxes.
 
   // TODO: display meaning in english
 };
